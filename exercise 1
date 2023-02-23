@@ -1,0 +1,24 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Suma (10,20,30);
+        
+        coche miCoche = new coche();
+        miCoche.aumentarPuertas();
+        System.out.println(miCoche.numPuertas);
+    }
+
+    public static int Suma (int a, int b, int c){
+        return a+b+c;
+    }
+}
+
+class coche{
+
+    int numPuertas = 2;
+
+    public void aumentarPuertas(){
+        numPuertas++;
+
+    }
+}
